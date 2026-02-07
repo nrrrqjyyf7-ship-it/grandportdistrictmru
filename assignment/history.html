@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>History | Grand Port</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-dark text-light">
+<div class="position-fixed top-0 start-0 m-3" style="z-index:1050">
+
+  <button
+    class="btn btn-dark"
+    style="width:60px;height:60px;"
+    data-bs-toggle="collapse"
+    data-bs-target="#menu"
+    aria-expanded="false"
+  >
+    ☰
+  </button>
+
+  
+  <div id="menu" class="collapse mt-2">
+    <ul class="list-group">
+      <li class="list-group-item bg-dark border-0">
+        <a href="home.html" class="text-white text-decoration-none">Home</a>
+      </li>
+      <li class="list-group-item bg-dark border-0">
+        <a href="explore.html" class="text-white text-decoration-none">Explore</a>
+      </li>
+
+      <li class="list-group-item bg-dark border-0">
+        <details>
+          <summary class="text-white fw-bold">Discover</summary>
+          <a href="activities.html" class="d-block ms-3 text-white">Activities</a>
+          <a href="nature.html" class="d-block ms-3 text-white">Nature</a>
+          <a href="places.html" class="d-block ms-3 text-white">Places</a>
+          <a href="culture.html" class="d-block ms-3 text-white">Culture</a>
+          <a href="history.html" class="d-block ms-3 text-warning">History</a>
+        </details>
+      </li>
+
+      <li class="list-group-item bg-dark border-0">
+        <details>
+          <summary class="text-white fw-bold">More</summary>
+          <a href="calculator.html" class="d-block ms-3 text-white">Calculator</a>
+          <a href="form.html" class="d-block ms-3 text-white">Validation Form</a>
+        </details>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="container py-5 mt-5">
+
+  <h1 class="text-center mb-4">History of Grand Port</h1>
+
+  <p class="lead text-center mb-5">
+    Grand Port, situated in the south-east of Mauritius, is one of the most historically
+    significant regions of the island. It played a central role during Dutch, French,
+    and British colonisation.
+  </p>
+
+  
+  <div id="historyCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner rounded shadow">
+
+      <div class="carousel-item active">
+        <img src="image/dutch.jpeg" class="d-block w-100" alt="Dutch settlement">
+        <div class="carousel-caption bg-dark bg-opacity-75 rounded p-3">
+          <h5>Dutch Settlement</h5>
+          <p>The earliest European settlement in Mauritius began with the Dutch in 1638. They chose Grand Port because of its calm lagoon and favourable anchorage. The Dutch named the area Frederik Hendrik, in honour of Prince Frederik Hendrik of Orange, the ruler of the Netherlands at the time.<br>
+
+At Frederik Hendrik (present-day Vieux Grand Port), the Dutch established their first permanent settlement. They built fortifications, storehouses and simple dwellings. The settlement served as an administrative and military centre. The Dutch also introduced sugar cane, deer and ebony exploitation, which later played an important role in the island’s economy.<br>
+
+Despite its strategic importance, life at Frederik Hendrik was difficult. The settlers faced cyclones, droughts, food shortages and isolation. These hardships eventually led the Dutch to abandon Mauritius in 1710, leaving Frederik Hendrik deserted</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="image/french.jpeg" class="d-block w-100" alt="French period">
+        <div class="carousel-caption bg-dark bg-opacity-75 rounded p-3">
+          <h5>French Period</h5>
+          <p>In 1715, the French took possession of Mauritius and renamed it Île de France. Under French rule, Grand Port became a vital naval base and commercial harbour. The French developed the region by improving infrastructure, constructing roads, warehouses and sugar estates and moreover, strengthening coastal defenses</p>
+
+Grand Port played a major role in maritime trade and in protecting the island from enemy attacks especially during periods of conflict between European powers</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="image/battle.jpeg" class="d-block w-100" alt="Battle of Grand Port">
+        <div class="carousel-caption bg-dark bg-opacity-75 rounded p-3">
+          <h5>Battle of Grand Port (1810)</h5>
+          <p> This naval battle took place in the lagoon of Grand Port between the French and the British during the Napoleonic Wars. The French forces succeeded in defeating the British fleet, making it the only naval victory of France over Britain during this period.</p>
+
+This victory is immortalised on the Arc de Triomphe in Paris where the name “Grand Port” is engraved, highlighting the global importance of this event</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="image/modern.jpeg" class="d-block w-100" alt="Modern Grand Port">
+        <div class="carousel-caption bg-dark bg-opacity-75 rounded p-3">
+          <h5>Modern Times</h5>
+          <p>Today, Grand Port is valued for its historical and cultural heritage. The Frederik Hendrik Museum at Vieux Grand Port stands as a reminder of the Dutch presence. The museum displays archaeological remains, cannons, tools and everyday objects from the Dutch and French periods</p>
+        </div>
+      </div>
+
+    </div>
+
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#historyCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#historyCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
